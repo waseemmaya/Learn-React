@@ -5,7 +5,7 @@ import './App.css';
 
 const items = ['Dragon Ball Super', 'One Piece', 'Naruto', 'Assasisans Creed', 'My Hero Academia', 'Death Note', 'Attack on Titian', 'Pokemon', 'Shadow Dragon', 'Call of Duty']
 
-class App extends Component {
+class Search extends Component {
   constructor() {
     super();
     this.state = {
@@ -122,4 +122,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Search;

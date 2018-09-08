@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import QuizList from "./Quiz/QuizList"
 import QuizInfo from "./Quiz/QuizInfo"
 import AddForm from "./Components/AddForm"
-import swal from 'sweetalert';
+import Search from "./Search/Search"
+// import swal from 'sweetalert';
 
 class App extends Component {
 
@@ -27,11 +28,12 @@ class App extends Component {
     const { showList, list, quiz } = this.state;
     return (
       <div>
-         <AddForm />
+        <Search />
+        {/* <AddForm />
         {showList ?
           <QuizList list={list} enterQuiz={this.enterQuiz} /> :
-          <QuizInfo quiz={quiz} back={this.back} />}
-       
+          <QuizInfo quiz={quiz} back={this.back} />} */}
+
       </div>
     );
   }
