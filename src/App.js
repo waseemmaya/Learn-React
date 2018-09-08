@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import QuizList from "./Quiz/QuizList"
 import QuizInfo from "./Quiz/QuizInfo"
+import AddForm from "./Components/AddForm"
+import swal from 'sweetalert';
 
 class App extends Component {
 
@@ -24,10 +26,12 @@ class App extends Component {
   render() {
     const { showList, list, quiz } = this.state;
     return (
-      <div className="container">
+      <div>
+         <AddForm />
         {showList ?
           <QuizList list={list} enterQuiz={this.enterQuiz} /> :
           <QuizInfo quiz={quiz} back={this.back} />}
+       
       </div>
     );
   }
