@@ -6,7 +6,7 @@ class Search extends Component {
     super();
 
     this.state = {
-      list: ['Beef Pulao', 'Chapli Kabab', 'Kaleji', 'Gola Kabab', 'Pae', 'Reshmi Kabab', 'Behari Boti', 'Dhaga Kabab', 'Hunter Beef', 'Sajji'],
+      list: ['Beef Pulao', 'Chapli Kabab', 'Kaleji', 'Waseem', 'Kaleem', 'Saleem', 'Gola Kabab', 'Pae', 'Reshmi Kabab', 'Behari Boti', 'Dhaga Kabab', 'Hunter Beef', 'Sajji'],
       numbers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
       result: [],
       numberResult: []
