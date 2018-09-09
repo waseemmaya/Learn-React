@@ -4,6 +4,6 @@ import './index.css';
 import App from './App';
 // import Search from './Search/Search'
 import registerServiceWorker from './registerServiceWorker';
-
-ReactDOM.render(<App />, document.getElementById('root'));
+import Layout from "./Layout/Layout"
+ReactDOM.render(<Layout />, document.getElementById('root'));
 registerServiceWorker();

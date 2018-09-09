@@ -29,11 +29,10 @@ class App extends Component {
     return (
       <div>
         <Search />
-        <AddForm />
+        {/* <AddForm />
         {showList ?
           <QuizList list={list} enterQuiz={this.enterQuiz} /> :
-          <QuizInfo quiz={quiz} back={this.back} />}
-
+          <QuizInfo quiz={quiz} back={this.back} />} */}
       </div>
     );
   }
